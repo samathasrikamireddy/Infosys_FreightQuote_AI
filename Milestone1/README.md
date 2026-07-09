@@ -20,7 +20,7 @@ The application allows new users to create an account by providing a unique user
 
 
 
---
+
 
 ### 🔑 Secure Login
 
@@ -28,9 +28,10 @@ Registered users can securely log in using their email/username and password. Af
 
 **📷 Login Page Screenshot**
 
-*(Paste your Login screenshot here.)*
+<img width="809" height="1020" alt="Screenshot 2026-07-09 141529" src="https://github.com/user-attachments/assets/7bf10f7f-a3c4-4cb8-a5e3-51711bdfc482" />
 
----
+
+
 
 ### 🔄 Password Recovery
 
@@ -40,23 +41,16 @@ Users can reset their password by answering the security question they selected 
 
 **📷 Security Question Screenshot**
 
-*(Paste your Security Question screenshot here.)*
+<img width="688" height="1020" alt="Screenshot 2026-07-09 141848" src="https://github.com/user-attachments/assets/c3f63537-3d79-4c43-830d-2046e5742789" />
+
 
 #### 📧 OTP Email Verification
 
 Users can request a One-Time Password (OTP) to their registered email address for secure password recovery.
 
-**📷 OTP Request Screenshot**
-
-*(Paste your "Secure Password Reset" screenshot here.)*
-
-#### 🔢 OTP Verification
-
-Users enter the received 6-digit OTP to verify their identity before creating a new password.
-
 **📷 OTP Verification Screenshot**
 
-*(Paste your OTP verification screenshot here.)*
+<img width="896" height="896" alt="Screenshot 2026-07-09 141908" src="https://github.com/user-attachments/assets/ab0a8993-eee3-4d50-962b-fb1d8c3504fe" />
 
 #### ✉️ OTP Email
 
@@ -64,9 +58,8 @@ The OTP is sent to the registered Gmail account using Gmail SMTP.
 
 **📷 OTP Email Screenshot**
 
-*(Paste your Gmail inbox screenshot here.)*
+<img width="1920" height="633" alt="Screenshot 2026-07-09 144806" src="https://github.com/user-attachments/assets/d507fe1e-3bbd-4ab3-b1e9-1662f4a32ac9" />
 
----
 
 ### 👤 User Dashboard
 
@@ -74,19 +67,12 @@ After successful login, users are redirected to the dashboard where they can acc
 
 **📷 User Dashboard Screenshot**
 
-*(Paste your User Dashboard screenshot here.)*
+<img width="1885" height="813" alt="Screenshot 2026-07-09 145044" src="https://github.com/user-attachments/assets/9270da40-179f-49c9-a6b2-31901156955d" />
 
----
 
 ### 👨‍💼 Admin Dashboard
 
 The administrator can log in separately to view all registered users while ensuring passwords remain securely encrypted.
-
-**📷 Admin Dashboard Screenshot**
-
-*(Paste your Admin Dashboard screenshot here.)*
-
----
 
 ## 🔒 Security Features
 
@@ -111,5 +97,5 @@ The administrator can log in separately to view all registered users while ensur
 - Gmail SMTP
 - Google Colab
 - ngrok
-
+📁 Repository Structure ├── app.py # Main application script ├── README.md # Project documentation └── screenshots/ # Directory containing visual proof of work ├── login_page.png ├── signup_validation.png ├── forgot_password_otp.png ├── email_inbox_otp.png ├── operator_dashboard.png └── admin_dashboard.png
 
