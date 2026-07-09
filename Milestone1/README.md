@@ -97,5 +97,15 @@ The administrator can log in separately to view all registered users while ensur
 - Gmail SMTP
 - Google Colab
 - ngrok
-📁 Repository Structure ├── app.py # Main application script ├── README.md # Project documentation └── screenshots/ # Directory containing visual proof of work ├── login_page.png ├── signup_validation.png ├── forgot_password_otp.png ├── email_inbox_otp.png ├── operator_dashboard.png └── admin_dashboard.png
+
+📁 Repository Structure
+├── app.py # Main application script
+├── README.md # Project documentation
+└── screenshots/ # Directory containing visual proof of work 
+├── login_page.png 
+├── signup_validation.png
+├── forgot_password_otp.png
+├── email_inbox_otp.png 
+├── operator_dashboard.png 
+└── admin_dashboard.png
 
