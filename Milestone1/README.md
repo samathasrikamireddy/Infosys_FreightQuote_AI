@@ -15,7 +15,8 @@ The application allows new users to create an account by providing a unique user
 
 **📷 Signup Page Screenshot**
 
-![Uploading image.png…]()
+![Uploading Screenshot 2026-07-09 141743.png…]()
+
 
 
 --
