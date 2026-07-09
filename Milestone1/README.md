@@ -15,7 +15,7 @@ The application allows new users to create an account by providing a unique user
 
 **📷 Signup Page Screenshot**
 
-S<img width="1920" height="1020" alt="Screenshot 2026-07-09 141743" src="https://github.com/user-attachments/assets/5723ec62-37c9-4530-b99f-2ba1a4005615" />
+![Uploading image.png…]()
 
 
 --
