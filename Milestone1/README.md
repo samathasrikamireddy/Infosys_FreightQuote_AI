@@ -5,8 +5,6 @@
 
 This repository contains the Authentication and User Management Module developed as part of the Infosys Springboard Internship 7.0 – Milestone 1. The application provides secure user authentication using JWT, password recovery through Security Questions and OTP verification, and separate dashboards for users and administrators.
 
----
-
 ## ✨ Key Features
 
 ### 🔐 Secure User Registration
