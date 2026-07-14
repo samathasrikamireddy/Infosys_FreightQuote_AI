@@ -11,10 +11,10 @@ This application is designed to be executed in a Google Colab environment and ex
 
 1. Prerequisites
 
-You will need to add two secret keys to your Google Colab Secrets tab (the key icon on the left sidebar):
+ You will need to add two secret keys to your Google Colab Secrets tab (the key icon on the left sidebar):
 
-NGROK_AUTHTOKEN: Your personal authentication token from Ngrok.
-EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
+ NGROK_AUTHTOKEN: Your personal authentication token from Ngrok.
+ EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
 
 2. Execution Steps
 Open the notebook file in Google Colab.
@@ -26,19 +26,26 @@ Open the notebook file in Google Colab.
 
 ## ✨ Key Features
 
-Secure User Registration: Enforces strict password complexity rules (uppercase, lowercase, numbers, symbols, min 8 characters) and prevents duplicate email/username registrations.
+Secure User Registration:
+Enforces strict password complexity rules (uppercase, lowercase, numbers, symbols, min 8 characters) and prevents duplicate email/username registrations.
 
-Encrypted Authentication: Utilizes bcrypt for secure password hashing and PyJWT (JSON Web Tokens) for stable session management.
+Encrypted Authentication: 
+Utilizes bcrypt for secure password hashing and PyJWT (JSON Web Tokens) for stable session management.
 
-Dual-Method Password Recovery: * Security Questions: Instant reset using user-defined security answers.
+Dual-Method Password Recovery: 
+* Security Questions: Instant reset using user-defined security answers.
 
-OTP Email Verification: Sends a time-sensitive, 6-digit One-Time Password to the user's registered email using smtplib.
+OTP Email Verification: 
+Sends a time-sensitive, 6-digit One-Time Password to the user's registered email using smtplib.
 
-Role-Based Dashboards: * Admin Panel: Exclusive root access (admin@infosys.com) to monitor all registered network operators.
+Role-Based Dashboards:
+* Admin Panel: Exclusive root access (admin@infosys.com) to monitor all registered network operators.
 
-Operator Dashboard: Provides system metrics, document indexing stats, and active task tracking for standard users.
+Operator Dashboard: 
+Provides system metrics, document indexing stats, and active task tracking for standard users.
 
-Dynamic Enterprise UI: Custom CSS overrides providing a sleek dark/light mode experience with responsive card containers and hidden default Streamlit branding.
+Dynamic Enterprise UI: 
+Custom CSS overrides providing a sleek dark/light mode experience with responsive card containers and hidden default Streamlit branding.
 
 ### 🔐 Secure User Registration
 
