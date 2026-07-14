@@ -15,28 +15,30 @@ This application is designed to be executed in a Google Colab environment and ex
 
     NGROK_AUTHTOKEN: Your personal authentication token from Ngrok.
 
-   EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
+    EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
 
-3. Execution Steps
+2. Execution Steps
 Open the notebook file in Google Colab.
 
-1.Run the Installation Cell to install required dependencies:
+  1.Run the Installation Cell to install required dependencies:
 
-2.!pip install streamlit pyngrok bcrypt PyJWT
+  2.!pip install streamlit pyngrok bcrypt PyJWT
 
-3.Run the Application Cell (%%writefile app.py) to generate the core script.
+  3.Run the Application Cell (%%writefile app.py) to generate the core script.
+ 
+  4.Run the Server Cell to launch the Streamlit server in the background and establish the Ngrok tunnel.
 
-4.Run the Server Cell to launch the Streamlit server in the background and establish the Ngrok tunnel.
-
-5.Click the generated *.ngrok-free.dev URL in the output to access the live application.
+  5.Click the generated *.ngrok-free.dev URL in the output to access the live application.
 
 ## ✨ Key Features
 
 Secure User Registration:
-Enforces strict password complexity rules (uppercase, lowercase, numbers, symbols, min 8 characters) and prevents duplicate email/username registrations.
+
+* Enforces strict password complexity rules (uppercase, lowercase, numbers, symbols, min 8 characters) and prevents duplicate email/username registrations.
 
 Encrypted Authentication: 
-Utilizes bcrypt for secure password hashing and PyJWT (JSON Web Tokens) for stable session management.
+
+* bcrypt for secure password hashing and PyJWT (JSON Web Tokens) for stable session management.
 
 Dual-Method Password Recovery: 
 * Security Questions: Instant reset using user-defined security answers.
