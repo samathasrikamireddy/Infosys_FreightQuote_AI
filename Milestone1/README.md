@@ -6,13 +6,16 @@
 This repository contains the Authentication and User Management Module developed as part of the Infosys Springboard Internship 7.0 – Milestone 1. The application provides secure user authentication using JWT, password recovery through Security Questions and OTP verification, and separate dashboards for users and administrators.
 
 🚀 How to Run the Application (Google Colab)
+
 This application is designed to be executed in a Google Colab environment and exposed to the web using Ngrok.
 
 1. Prerequisites
+
 You will need to add two secret keys to your Google Colab Secrets tab (the key icon on the left sidebar):
 
 NGROK_AUTHTOKEN: Your personal authentication token from Ngrok.
 EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
+
 2. Execution Steps
 Open the notebook file in Google Colab.
 1.Run the Installation Cell to install required dependencies:
