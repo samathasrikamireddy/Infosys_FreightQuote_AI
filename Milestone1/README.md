@@ -14,14 +14,20 @@ This application is designed to be executed in a Google Colab environment and ex
    You will need to add two secret keys to your Google Colab Secrets tab (the key icon on the left sidebar):
 
     NGROK_AUTHTOKEN: Your personal authentication token from Ngrok.
-    EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
 
-2. Execution Steps
+   EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
+
+3. Execution Steps
 Open the notebook file in Google Colab.
+
 1.Run the Installation Cell to install required dependencies:
+
 2.!pip install streamlit pyngrok bcrypt PyJWT
+
 3.Run the Application Cell (%%writefile app.py) to generate the core script.
+
 4.Run the Server Cell to launch the Streamlit server in the background and establish the Ngrok tunnel.
+
 5.Click the generated *.ngrok-free.dev URL in the output to access the live application.
 
 ## ✨ Key Features
@@ -36,18 +42,18 @@ Dual-Method Password Recovery:
 * Security Questions: Instant reset using user-defined security answers.
 
 OTP Email Verification: 
-Sends a time-sensitive, 6-digit One-Time Password to the user's registered email using smtplib.
+* Sends a time-sensitive, 6-digit One-Time Password to the user's registered email using smtplib.
 
 Role-Based Dashboards:
 * Admin Panel: Exclusive root access (admin@infosys.com) to monitor all registered network operators.
 
 Operator Dashboard: 
 
-Provides system metrics, document indexing stats, and active task tracking for standard users.
+* Provides system metrics, document indexing stats, and active task tracking for standard users.
 
 Dynamic Enterprise UI: 
 
-Custom CSS overrides providing a sleek dark/light mode experience with responsive card containers and hidden default Streamlit branding.
+* Custom CSS overrides providing a sleek dark/light mode experience with responsive card containers and hidden default Streamlit branding.
 
 ### 🔐 Secure User Registration
 
