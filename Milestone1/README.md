@@ -20,15 +20,15 @@ This application is designed to be executed in a Google Colab environment and ex
 2. Execution Steps
 Open the notebook file in Google Colab.
 
-  1.Run the Installation Cell to install required dependencies:
+    1.Run the Installation Cell to install required dependencies:
 
-  2.!pip install streamlit pyngrok bcrypt PyJWT
+    2.!pip install streamlit pyngrok bcrypt PyJWT
 
-  3.Run the Application Cell (%%writefile app.py) to generate the core script.
+    3.Run the Application Cell (%%writefile app.py) to generate the core script.
  
-  4.Run the Server Cell to launch the Streamlit server in the background and establish the Ngrok tunnel.
+    4.Run the Server Cell to launch the Streamlit server in the background and establish the Ngrok tunnel.
 
-  5.Click the generated *.ngrok-free.dev URL in the output to access the live application.
+    5.Click the generated *.ngrok-free.dev URL in the output to access the live application.
 
 ## ✨ Key Features
 
