@@ -11,10 +11,10 @@ This application is designed to be executed in a Google Colab environment and ex
 
 1. Prerequisites
 
- You will need to add two secret keys to your Google Colab Secrets tab (the key icon on the left sidebar):
+   You will need to add two secret keys to your Google Colab Secrets tab (the key icon on the left sidebar):
 
- NGROK_AUTHTOKEN: Your personal authentication token from Ngrok.
- EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
+    NGROK_AUTHTOKEN: Your personal authentication token from Ngrok.
+    EMAIL_PASSWORD: A 16-character Google App Password used to send OTP emails.
 
 2. Execution Steps
 Open the notebook file in Google Colab.
@@ -42,9 +42,11 @@ Role-Based Dashboards:
 * Admin Panel: Exclusive root access (admin@infosys.com) to monitor all registered network operators.
 
 Operator Dashboard: 
+
 Provides system metrics, document indexing stats, and active task tracking for standard users.
 
 Dynamic Enterprise UI: 
+
 Custom CSS overrides providing a sleek dark/light mode experience with responsive card containers and hidden default Streamlit branding.
 
 ### 🔐 Secure User Registration
