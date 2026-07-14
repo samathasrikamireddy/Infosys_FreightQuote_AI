@@ -105,8 +105,8 @@ Users can request a One-Time Password (OTP) to their registered email address fo
 The OTP is sent to the registered Gmail account using Gmail SMTP.
 
 **📷 OTP Email Screenshot**
+<img width="1920" height="1020" alt="Screenshot 2026-07-14 165419" src="https://github.com/user-attachments/assets/a188a247-5c3e-4834-b7ed-4b2b4de31d98" />
 
-<img width="1920" height="633" alt="Screenshot 2026-07-09 144806" src="https://github.com/user-attachments/assets/d507fe1e-3bbd-4ab3-b1e9-1662f4a32ac9" />
 
 
 ### 👤 User Dashboard
