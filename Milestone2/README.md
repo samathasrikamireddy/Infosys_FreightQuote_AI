@@ -75,25 +75,25 @@ Tier 4 — System Administration Control Panel: An isolated administrative tier 
 ### 🇮🇳 Localized Indian Port Coverage Matrix
 Expanding beyond the initial set, the platform's analytical intelligence matrix integrates operational risk, tariff algorithms, and bottleneck tracking across these alternative major Indian maritime gateways:
 
-Visakhapatnam — Code: INVTZ
+#### Visakhapatnam — Code: INVTZ
 
 Operational Focus: Evaluates deep-water natural harbor performance and heavy mineral bulk transit flow logistics.
 
 Primary Commodities: Thermal coal, processed steel, and raw iron ore.
 
-Kandla (Deendayal) — Code: INKAN
+#### Kandla (Deendayal) — Code: INKAN
 
 Operational Focus: Manages high-volume liquid bulk transit models and trade-lane vectors heading into North-Western economic corridors.
 
 Primary Commodities: Crude petroleum, industrial chemicals, and bulk fertilizers.
 
-Kolkata (Syama Prasad Mookerjee) — Code: INCCU
+#### Kolkata (Syama Prasad Mookerjee) — Code: INCCU
 
 Operational Focus: Analyzes riverine navigational constraints, tidal variations, and multi-modal connectivity bottlenecks for Eastern India.
 
 Primary Commodities: Tea, jute, mineral ores, and general containerized cargo.
 
-Tuticorin (V.O. Chidambaranar) — Code: INTUT
+#### Tuticorin (V.O. Chidambaranar) — Code: INTUT
 
 Operational Focus: Tracks southern coastal shipping routes, international transit times to South-East Asia, and terminal turnaround efficiency.
 
