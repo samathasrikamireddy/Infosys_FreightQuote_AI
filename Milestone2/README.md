@@ -133,7 +133,8 @@ To protect runtime credentials, do not hardcode your tokens inside the notebook 
 	.   EMAIL_PASSWORD
  Toggle the Notebook Access switch to ON for all injected keys.
 
-###  🚀 How to Run the Notebook & DashboardFollow these steps sequentially within the execution environment:  
+###  🚀 How to Run the Notebook & Dashboard
+Follow these steps sequentially within the execution environment:  
 . Runtime Provisioning: Set your Colab runtime to T4 GPU to support local quantized model inference.  
 
 . Environment Provisioning: Run the initial setup cells to install dependencies (streamlit, pyngrok, bcrypt, pyjwt, pandas, scikit-learn, bitsandbytes,              transformers, etc.).
