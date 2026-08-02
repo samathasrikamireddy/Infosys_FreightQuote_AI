@@ -117,13 +117,20 @@ To protect runtime credentials, do not hardcode your tokens inside the notebook 
  Open your project notebook in Google Colab.
  In the left-hand sidebar, click the Key icon (Secrets).
  Add the following key-value pairs exactly as specified:  NGROK_AUTHTOKEN
-    .   HF_TOKEN
-    .   KAGGLE_USERNAME
-    .   KAGGLE_KEYJWT_SECRET_KEY
-    .   ADMIN_EMAIL_ID
-    .   ADMIN_PASSWORD
-    .   EMAIL_ID
-    .   EMAIL_PASSWORD
+   
+	.   HF_TOKEN
+    
+	.   KAGGLE_USERNAME
+    
+	.   KAGGLE_KEYJWT_SECRET_KEY
+    
+	.   ADMIN_EMAIL_ID
+    
+	.   ADMIN_PASSWORD
+    
+	.   EMAIL_ID
+    
+	.   EMAIL_PASSWORD
  Toggle the Notebook Access switch to ON for all injected keys.
 
 ###  🚀 How to Run the Notebook & DashboardFollow these steps sequentially within the execution environment:  
