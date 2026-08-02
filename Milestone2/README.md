@@ -3,6 +3,7 @@
 Milestone 2 transitions the platform from a foundational data processing baseline (Milestone 1) into a secure, fully interactive, multi-agent intelligence ecosystem. While Milestone 1 focused on standalone calculations and basic script logic, Milestone 2 builds a unified Streamlit dashboard orchestration layer driven by autonomous agents, secured by localized database authentication, and augmented by a Generative AI executive advisory copilot. 
 
 🚀 Key Features Built
+	
 	Security Gateway Lockout: Secure User Authentication (Login, Register, Password Recovery) utilizing Gmail OTP verification, role-based routing (User vs Admin), and progressive account lockout mechanics (3/4/5 failed attempts leading to temporary 5-min, 15-min, or permanent admin-controlled lockouts) enforced via an SQLite backend. 
 
 Domain Intelligence Engine: Three autonomous tabular reasoning modules providing real-time operational forecasting: 
