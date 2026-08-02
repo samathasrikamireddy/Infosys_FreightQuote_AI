@@ -102,18 +102,18 @@ Primary Commodities: Construction granite, raw cement, and marine exports.
 
 ### ⚙️ Setup & Configuration Instructions
 1. Generating API Credentials
-2. A. Kaggle API Credentials
+##### A. Kaggle API Credentials
 3. Log into your account on Kaggle.
 4.  Click on your profile picture in the top right corner and navigate to Settings.
 5.  Scroll down to the API section and click Create New Token to download kaggle.json.
 6.  Open kaggle.json to extract your username and key.
-7.  B. Hugging Face Access Token
+    ##### B . Hugging Face Access Token
 8.  Log into your account on Hugging Face.
 9.  Go to your Profile Settings -> Access Tokens.
 10.    Click New token, set the name (e.g., maritime-logistics-m2), and assign Read access.
 11. Copy the generated token string (hf_...).  C. ngrok AuthtokenCreate a free account at ngrok.com and copy your authtoken from your dashboard.
 12. ### Setting Google Colab Secrets
-    3. To protect runtime credentials, do not hardcode your tokens inside the notebook cell layout. Use Colab's native Secret Vault:
+     To protect runtime credentials, do not hardcode your tokens inside the notebook cell layout. Use Colab's native Secret Vault:
     4. Open your project notebook in Google Colab.
     5.  In the left-hand sidebar, click the Key icon (Secrets).
     6.   Add the following key-value pairs exactly as specified:  NGROK_AUTHTOKEN
@@ -126,8 +126,14 @@ Primary Commodities: Construction granite, raw cement, and marine exports.
     13.   EMAIL_PASSWORD
     14.   Toggle the Notebook Access switch to ON for all injected keys.
 ###  🚀 How to Run the Notebook & DashboardFollow these steps sequentially within the execution environment:  
+
 Runtime Provisioning: Set your Colab runtime to T4 GPU to support local quantized model inference.  
+
 Environment Provisioning: Run the initial setup cells to install dependencies (streamlit, pyngrok, bcrypt, pyjwt, pandas, scikit-learn, bitsandbytes, transformers, etc.).
+
 Credential Mount: The notebook will automatically ingest Colab secrets and instantiate environment configurations.  Data Pull: Execute the data collection module to download maritime tabular datasets directly via the Kaggle CLI or fall back to robust synthetic data generation. 
-Bootstrapping & Tunneling: Run the execution cell initializing Streamlit concurrently alongside ngrok or localtunnel to generate an external HTTPS URL.  Click the generated public link, input your credentials, and log in through the Phase 1 Security Gateway.  
+
+Bootstrapping & Tunneling: Run the execution cell initializing Streamlit concurrently alongside ngrok or localtunnel to generate an external HTTPS URL. 
+
+Click the generated public link, input your credentials, and log in through the Phase 1 Security Gateway.  
 
