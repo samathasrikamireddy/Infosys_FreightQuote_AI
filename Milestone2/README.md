@@ -82,11 +82,11 @@ Operational Focus: Evaluates deep-water natural harbor performance and heavy min
 
 Primary Commodities: Thermal coal, processed steel, and raw iron ore.
 
-#### Kandla (Deendayal) — Code: INKAN
+#### Chennai — Code: INMAA
 
-Operational Focus: Manages high-volume liquid bulk transit models and trade-lane vectors heading into North-Western economic corridors.
+Core Focus Area: Coromandel coast route delay vectors, seasonal weather impacts, and berth occupancy rates.
 
-Primary Commodities: Crude petroleum, industrial chemicals, and bulk fertilizers.
+Primary Commodities Monitored: Industrial spares, finished goods, automobiles, and iron ore.
 
 #### Kolkata (Syama Prasad Mookerjee) — Code: INCCU
 
@@ -94,11 +94,11 @@ Operational Focus: Analyzes riverine navigational constraints, tidal variations,
 
 Primary Commodities: Tea, jute, mineral ores, and general containerized cargo.
 
-#### Tuticorin (V.O. Chidambaranar) — Code: INTUT
+#### Mumbai — Code: INBOM
 
-Operational Focus: Tracks southern coastal shipping routes, international transit times to South-East Asia, and terminal turnaround efficiency.
+Core Focus Area: Container congestion, urban terminal turnaround delays, and hinterland rail connectivity.
 
-Primary Commodities: Construction granite, raw cement, and marine exports.
+Primary Commodities Monitored: Consumer goods, petroleum products, and manufactured textiles.
 
 ### ⚙️ Setup & Configuration Instructions
 1. Generating API Credentials
