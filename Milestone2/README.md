@@ -113,10 +113,10 @@ Primary Commodities: Construction granite, raw cement, and marine exports.
 .    Click New token, set the name (e.g., maritime-logistics-m2), and assign Read access.
 . Copy the generated token string (hf_...).  C. ngrok AuthtokenCreate a free account at ngrok.com and copy your authtoken from your dashboard.
 ### Setting Google Colab Secrets
-    To protect runtime credentials, do not hardcode your tokens inside the notebook cell layout. Use Colab's native Secret Vault:
-    1. Open your project notebook in Google Colab.
-    2.  In the left-hand sidebar, click the Key icon (Secrets).
-    3.   Add the following key-value pairs exactly as specified:  NGROK_AUTHTOKEN
+To protect runtime credentials, do not hardcode your tokens inside the notebook cell layout. Use Colab's native Secret Vault:
+ Open your project notebook in Google Colab.
+ In the left-hand sidebar, click the Key icon (Secrets).
+ Add the following key-value pairs exactly as specified:  NGROK_AUTHTOKEN
     .   HF_TOKEN
     .   KAGGLE_USERNAME
     .   KAGGLE_KEYJWT_SECRET_KEY
@@ -124,17 +124,16 @@ Primary Commodities: Construction granite, raw cement, and marine exports.
     .   ADMIN_PASSWORD
     .   EMAIL_ID
     .   EMAIL_PASSWORD
-    .   Toggle the Notebook Access switch to ON for all injected keys.
+ Toggle the Notebook Access switch to ON for all injected keys.
 
 ###  🚀 How to Run the Notebook & DashboardFollow these steps sequentially within the execution environment:  
+. Runtime Provisioning: Set your Colab runtime to T4 GPU to support local quantized model inference.  
 
-Runtime Provisioning: Set your Colab runtime to T4 GPU to support local quantized model inference.  
+. Environment Provisioning: Run the initial setup cells to install dependencies (streamlit, pyngrok, bcrypt, pyjwt, pandas, scikit-learn, bitsandbytes,              transformers, etc.).
 
-Environment Provisioning: Run the initial setup cells to install dependencies (streamlit, pyngrok, bcrypt, pyjwt, pandas, scikit-learn, bitsandbytes, transformers, etc.).
+. Credential Mount: The notebook will automatically ingest Colab secrets and instantiate environment configurations.  Data Pull: Execute the data collection         module to download maritime tabular datasets directly via the Kaggle CLI or fall back to robust synthetic data generation. 
 
-Credential Mount: The notebook will automatically ingest Colab secrets and instantiate environment configurations.  Data Pull: Execute the data collection module to download maritime tabular datasets directly via the Kaggle CLI or fall back to robust synthetic data generation. 
+. Bootstrapping & Tunneling: Run the execution cell initializing Streamlit concurrently alongside ngrok or localtunnel to generate an external HTTPS URL. 
 
-Bootstrapping & Tunneling: Run the execution cell initializing Streamlit concurrently alongside ngrok or localtunnel to generate an external HTTPS URL. 
-
-Click the generated public link, input your credentials, and log in through the Phase 1 Security Gateway.  
+. Click the generated public link, input your credentials, and log in through the Phase 1 Security Gateway.  
 
