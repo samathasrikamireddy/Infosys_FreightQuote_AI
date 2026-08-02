@@ -137,11 +137,11 @@ To protect runtime credentials, do not hardcode your tokens inside the notebook 
 Follow these steps sequentially within the execution environment:  
 . Runtime Provisioning: Set your Colab runtime to T4 GPU to support local quantized model inference.  
 
-. Environment Provisioning: Run the initial setup cells to install dependencies (streamlit, pyngrok, bcrypt, pyjwt, pandas, scikit-learn, bitsandbytes,              transformers, etc.).
+. Environment Provisioning: Run the initial setup cells to install dependencies (streamlit, pyngrok, bcrypt, pyjwt, pandas, scikit-learn,bitsandbytes,              transformers, etc.).
 
-. Credential Mount: The notebook will automatically ingest Colab secrets and instantiate environment configurations.  Data Pull: Execute the data collection         module to download maritime tabular datasets directly via the Kaggle CLI or fall back to robust synthetic data generation. 
+. Credential Mount: The notebook will automatically ingest Colab secrets and instantiate environment configurations.  Data Pull: Execute the data collection   module to download maritime tabular datasets directly via the Kaggle CLI or fall back to robust synthetic data generation. 
 
-. Bootstrapping & Tunneling: Run the execution cell initializing Streamlit concurrently alongside ngrok or localtunnel to generate an external HTTPS URL. 
+. Bootstrapping & Tunneling: Run the execution cell initializing Streamlit concurrently alongside ngrok or localtunnel to generate an externalHTTPS URL. 
 
 . Click the generated public link, input your credentials, and log in through the Phase 1 Security Gateway.  
 
