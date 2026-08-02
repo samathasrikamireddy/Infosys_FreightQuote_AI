@@ -103,28 +103,29 @@ Primary Commodities: Construction granite, raw cement, and marine exports.
 ### ⚙️ Setup & Configuration Instructions
 1. Generating API Credentials
 ##### A. Kaggle API Credentials
-3. Log into your account on Kaggle.
-4.  Click on your profile picture in the top right corner and navigate to Settings.
-5.  Scroll down to the API section and click Create New Token to download kaggle.json.
-6.  Open kaggle.json to extract your username and key.
-    ##### B . Hugging Face Access Token
-8.  Log into your account on Hugging Face.
-9.  Go to your Profile Settings -> Access Tokens.
-10.    Click New token, set the name (e.g., maritime-logistics-m2), and assign Read access.
-11. Copy the generated token string (hf_...).  C. ngrok AuthtokenCreate a free account at ngrok.com and copy your authtoken from your dashboard.
-12. ### Setting Google Colab Secrets
-     To protect runtime credentials, do not hardcode your tokens inside the notebook cell layout. Use Colab's native Secret Vault:
-    4. Open your project notebook in Google Colab.
-    5.  In the left-hand sidebar, click the Key icon (Secrets).
-    6.   Add the following key-value pairs exactly as specified:  NGROK_AUTHTOKEN
-    7.   HF_TOKEN
-    8.   KAGGLE_USERNAME
-    9.   KAGGLE_KEYJWT_SECRET_KEY
-    10.   ADMIN_EMAIL_ID
-    11.   ADMIN_PASSWORD
-    12.   EMAIL_ID
-    13.   EMAIL_PASSWORD
-    14.   Toggle the Notebook Access switch to ON for all injected keys.
+. Log into your account on Kaggle.
+.  Click on your profile picture in the top right corner and navigate to Settings.
+.  Scroll down to the API section and click Create New Token to download kaggle.json.
+.  Open kaggle.json to extract your username and key.
+##### B . Hugging Face Access Token
+.  Log into your account on Hugging Face.
+.  Go to your Profile Settings -> Access Tokens.
+.    Click New token, set the name (e.g., maritime-logistics-m2), and assign Read access.
+. Copy the generated token string (hf_...).  C. ngrok AuthtokenCreate a free account at ngrok.com and copy your authtoken from your dashboard.
+### Setting Google Colab Secrets
+    To protect runtime credentials, do not hardcode your tokens inside the notebook cell layout. Use Colab's native Secret Vault:
+    1. Open your project notebook in Google Colab.
+    2.  In the left-hand sidebar, click the Key icon (Secrets).
+    3.   Add the following key-value pairs exactly as specified:  NGROK_AUTHTOKEN
+    .   HF_TOKEN
+    .   KAGGLE_USERNAME
+    .   KAGGLE_KEYJWT_SECRET_KEY
+    .   ADMIN_EMAIL_ID
+    .   ADMIN_PASSWORD
+    .   EMAIL_ID
+    .   EMAIL_PASSWORD
+    .   Toggle the Notebook Access switch to ON for all injected keys.
+
 ###  🚀 How to Run the Notebook & DashboardFollow these steps sequentially within the execution environment:  
 
 Runtime Provisioning: Set your Colab runtime to T4 GPU to support local quantized model inference.  
