@@ -1,4 +1,4 @@
-# 🚚 FreightQuote AI
+# 🚚 Agentic AI for Maritime Freight Pricing and Route Optimization
 
 ### AI-Powered Multi-Agent Freight Quotation & Logistics Decision Support System
 
@@ -17,7 +17,7 @@
 
 # 📖 Project Overview
 
-**FreightQuote AI** is an intelligent logistics platform that combines **Machine Learning**, **Generative AI**, and **Retrieval-Augmented Generation (RAG)** to automate freight quotation, logistics analysis, and compliance assistance.
+**Agentic AI for Maritime Freight Pricing and Route Optimization** is an intelligent logistics platform that combines **Machine Learning**, **Generative AI**, and **Retrieval-Augmented Generation (RAG)** to automate freight quotation, logistics analysis, and compliance assistance.
 
 The application provides an interactive Streamlit interface where users can obtain freight price predictions, ask logistics-related questions through an AI Copilot, and utilize multiple AI agents for shipment analysis and decision support. A RAG knowledge base built from customs regulations, logistics documents, and government resources enables the system to deliver context-aware responses for freight and compliance queries.
 
