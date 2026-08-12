@@ -1,5 +1,5 @@
 
-# 🔐 Intelligent Freight Quote Generation – Authentication Module (Milestone 1)
+# 🔐 Agentic AI for Maritime Freight Pricing and Route Optimization – Authentication Module (Milestone 1)
 
 ## 📌 Project Overview
 
