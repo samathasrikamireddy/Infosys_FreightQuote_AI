@@ -1,4 +1,4 @@
-# 🚢 FreightQuote AI Platform — Milestone 2 
+# 🚢 Agentic AI for Maritime Freight Pricing and Route Optimization — Milestone 2 
 
 Milestone 2 transitions the platform from a foundational data processing baseline (Milestone 1) into a secure, fully interactive, multi-agent intelligence ecosystem. While Milestone 1 focused on standalone calculations and basic script logic, Milestone 2 builds a unified Streamlit dashboard orchestration layer driven by autonomous agents, secured by localized database authentication, and augmented by a Generative AI executive advisory copilot. 
 
