@@ -150,21 +150,21 @@ Follow these steps sequentially within the execution environment:
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/385bd8c9-7e84-4a5c-8db0-3e3c8a7c80d2" />
 ### 2.Create Account
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 115726" src="https://github.com/user-attachments/assets/d1df96ae-cfc3-411f-b1c7-774e2e106f8c" />
-### 3.Reset Password
+###  3.Reset Password
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 115806" src="https://github.com/user-attachments/assets/2b2b359f-148f-4ac6-a7f4-42c90711e3bc" />
-### 4.Dashboard
+###  4.Dashboard
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 120242" src="https://github.com/user-attachments/assets/8e566192-ab71-4066-a6bb-43d4dcf27f1e" />
-### 5.AI Copilot
+###  5.AI Copilot
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 120523" src="https://github.com/user-attachments/assets/f7f202ec-d23b-438f-bbdf-eb09a5e8c0b4" />
-### 6.Agent 1
+###  6.Agent 1
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 120306" src="https://github.com/user-attachments/assets/74ae63c0-0bcc-4c32-b490-28fe35ae9042" />
-### 7.Agent 2
+###  7.Agent 2
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 120318" src="https://github.com/user-attachments/assets/10cd197f-6f87-4647-b1c9-9fcb062ed2d5" />
-### 8.Agent 3
+###  8.Agent 3
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 120336" src="https://github.com/user-attachments/assets/4b527245-8d66-4377-8df8-ec476b2f8dd2" />
-### 9.Agent 4
+###  9.Agent 4
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 120351" src="https://github.com/user-attachments/assets/cc609bcb-7f32-4531-b0fc-4d1cb669770d" />
-### 10.Analytics & Retrain
+###  10.Analytics & Retrain
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 120351" src="https://github.com/user-attachments/assets/f746a859-55b8-4ad4-a11f-358bd7e43e16" />
 
 
