@@ -148,7 +148,7 @@ Follow these steps sequentially within the execution environment:
 # Screenshots
 ### 1.Login page
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/385bd8c9-7e84-4a5c-8db0-3e3c8a7c80d2" />
-### 2.Create Account
+2.Create Account
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 115726" src="https://github.com/user-attachments/assets/d1df96ae-cfc3-411f-b1c7-774e2e106f8c" />
 3.Reset Password
 <img width="1920" height="1020" alt="Screenshot 2026-08-03 115806" src="https://github.com/user-attachments/assets/2b2b359f-148f-4ac6-a7f4-42c90711e3bc" />
