@@ -491,19 +491,23 @@ The repository includes selected screenshots demonstrating the platform.
 
 ## 🔐 Login
 
-![FreightQuote AI Login](docs/screenshots/login.jpeg)
+<img width="1812" height="652" alt="Log in page" src="https://github.com/user-attachments/assets/1d02fea6-103c-46e3-8efa-8cc11f3be4da" />
+
 
 ## 🤖 Agent Interface
 
-![Agent Example](docs/screenshots/agent-example.jpeg)
+<img width="1600" height="765" alt="Agent 4" src="https://github.com/user-attachments/assets/b2d79a83-dc54-4376-9eed-aa63f5d8ae15" />
+
 
 ## 🧠 AI Copilot
 
-![AI Copilot](docs/screenshots/copilot-chat.jpeg)
+<img width="1600" height="765" alt=" AI Copilot" src="https://github.com/user-attachments/assets/7cf84168-1a2c-474e-b6c6-78259f0f9a2d" />
+
 
 ## 👨‍💼 Admin Dashboard
 
-![Admin Dashboard](docs/screenshots/admin_dashboard.jpeg)
+<img width="1600" height="770" alt="Admindashboard" src="https://github.com/user-attachments/assets/2153c451-2250-4a05-a6d9-ddb43a7c6311" />
+
 
 ## 🏗️ Architecture
 
